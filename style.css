@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+  }
+
+body {
+    background: #ddd;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.text-info {
+    font-weight: bold;
+    margin-left: 40px;
+    width: 60%;
+    align-self: flex-start;
+}
+
+#photo-of-me {
+    width: 40%;
+    height: auto;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-right: 40px; 
+    margin-top: 60px;
+}
+
+@media(max-width: 1000px) {
+    .info {
+        display: block
+    }
+}
+
+h1 {
+    color: rgb(2, 25, 65);
+    font: 40px 'Montserrat';
+    padding: 20px;
+}
+
+#header {
+    color: rgb(2, 25, 65);
+    margin-bottom: 30px;
+}
+
+.card {
+    border: 1px solid rgb(146, 146, 146);
+    border-radius: 20px;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+}
+
+.table {
+    border: 1px solid;
+    }
+
+.table th, td {
+    padding: 15px;
+    text-align: left;
+    color:rgb(2, 25, 65)
+  }
+
+.table th {
+    background-color: #318ab0;
+    color: white;
+  }
+
+.table tr:hover {
+    background-color: rgb(255, 249, 74);
+}
+
+.table tr:nth-child(even) {background-color: #cadee3;}
+
+#exp, h2, h3 {
+    font-family: 'Montserrat', 'Roboto';
+    color: rgb(2, 25, 65)
+  }
+
+a:hover {
+    color:rgb(255, 0, 0)
+  }
+
+.card:hover {
+    background: aquamarine;
+  }
+
+.btn {
+    background: #aa9104;
+    padding: 15px 20px;
+    color:rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inherit;
+  }
+
+.btn:hover {
+    opacity: 0.8;
+  }
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+.hard {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    padding: 0 10px;
+    width: 100%;
+    border: 1px solid grey;
+    padding-right: 0;
+    }
+
+@media(max-width: 1000px) {
+    .hard {
+        display: block;
+        padding: 0 10px;
+        width: 100%;
+        border: none
+    }
+}
+
+.hard li {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+
+
+.hard li:last-child {
+    padding-right: 0;
+}
+
+.hard li:hover {
+    background: rgb(255, 249, 74);
+}
+
+.contacts h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+}
+
+
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}

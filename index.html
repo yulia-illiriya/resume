@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="yulia, html, frontend, developers, fullstack, css">
+    <meta name="description" content="this is my first site based on html">
+    <title>First site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <img src="imgs/me.jpg" alt="Мое фото" id="photo-of-me">
+
+            <div class="text-info">
+                <header id="header">
+                    <h1>Yulia Pal'kina / Юлия Палькина</h1>
+                </header>
+                <div class="card first">
+                    <p>Всем привет! Меня зовут Юлия, я профессиональный копирайтер, журналист и - внезапно - <strong>программист</strong>.</p> 
+                    <p>Программированием я увлеклась год назад, и с тех пор все пытаюсь войти в айти.</p>
+                </div>
+                <div class="card social">
+                <h2>Мои социальные сети</h2>
+                    <h3><a href="https://www.facebook.com/yulia.illiriya/" target="_blank">Facebook</a>
+                        | 
+                        <a href="https://t.me/Yulia_Illiriya" target="_blank">Telegram</a></h3>
+                </div>
+            </div>
+        </div>
+        
+        <h3 id="exp">Опыт работы</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Название компании</th>
+                    <th>Должность</th>
+                    <th>Период</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Работа не по найму</td>
+                    <td>Фрилансер</td>
+                    <td>Январь 2023 - по наст.вр.</td>
+                </tr>
+                <tr>
+                    <td>ЗАО "Чаарат Заав"</td>
+                    <td>PR-менеджер</td>
+                    <td>Октябрь 2019-Декабрь 2022</td>
+                </tr>
+                <tr>
+                    <td>ОАО "РСК Банк"</td>
+                    <td>PR-менеджер</td>
+                    <td>Июль 2018 - Октябрь 2019</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <div class="card skills">
+            <h2>Что я умею</h2>
+            <ul class="hard">
+                <li>Python/Django</li>
+                <li>Git</li>
+                <li>PostgreSQL</li>
+                <li>Bash</li>
+                <li>Linux</li>
+                <li>Docker</li>
+                <li>HTML/CSS</li>
+                <li>Javascript</li>
+                <li>Тексты</li>
+                <li>SMM</li>
+            </ul>
+
+        </div>
+
+        <div class="card hobby">
+            
+            <h3>Немного о хобби</h3>
+
+            <ul>
+                <li>Обожаю читать книги. Книги - это кусочки параллельного мира,</li>
+                <li>А еще я хожу по горам. Правда, как турист, но хожу!</li>
+                <li>И фотографирую. Горы. Сына. Кошку.</li>
+                <li>Но в основном - учусь, и всем советую!</li>
+            </ul>
+
+        </div>
+
+
+
+        
+        
+        <form action="/" class="card contacts">
+
+            <h2>Связаться со мной</h2>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="text">Ваше имя</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Ваша почта</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Ваше сообщение</label>
+                
+                <textarea id="message" placeholder="Введите сообщение" cols="100" rows="6"></textarea>
+                
+            </div>
+
+            <div>
+                <button type="submit" class="btn">Отправить!</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
